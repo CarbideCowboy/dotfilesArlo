@@ -1,0 +1,82 @@
+!------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+! rofi.color-enabled: true
+! first two color-window were a013191c
+! a6 = 65% amount of black needed over white for white to be a 7 contrast score
+! b3 = 70%
+! 80 = 50%
+! rofi.line-margin: 31
+! rofi.font: IBM Plex Mono 30
+! rofi.padding: 168
+rofi.fullscreen: true
+! rofi.display-drun: 
+! rofi.display-window: win
+! rofi.display-combi: myprompt
+rofi.color-enabled: true
+! rofi.separator-style: none
+rofi.color-window: argb:DA222222, argb:DA222222, argb:00222222
+rofi.color-normal: argb:00000000, #e8e8e8, argb:00000000, argb:00000000, #ff803f
+rofi.color-urgent: argb:00000000, #f43753, argb:00000000, argb:00000000, #ff803f
+rofi.color-active: argb:00000000, #49bbfb, argb:00000000, argb:00000000, #ff803f
+
+! rofi.font: System San Francisco Display 20
+rofi.font: IBM Plex Mono 20
+! rofi.fg: argb:00ffffff
+rofi.eh: 1
+rofi.line-margin: 20
+rofi.separator-style: solid
+rofi.hide-scrollbar: true
+rofi.lines: 7
+rofi.width: 50
+rofi.padding: 200
+rofi.bw: 0 
+rofi.auto-select: false 
+rofi.fuzzy: true
+rofi.scroll-method: 1
+rofi.window-format: {w:5} {t}
+rofi.mesg: "hello"
+! rofi.show-icons: true
+
+
+URxvt.internalBorder: 25
+URxvt.scrollBar: false
+URxvt.cursorBlink: true
+URxvt.borderless: true
+URxvt.font: xft:IBM Plex Mono:size=10
+! special
+URxvt.foreground:   #93a1a1
+URxvt.background:   #141819
+URxvt.cursorColor:  #93a1a1
+
+! black
+URxvt.color0:       #1320d2
+URxvt.color8:       #657b83
+
+! red
+URxvt.color1:       #ac28dc
+URxvt.color9:       #ac28dc
+
+! green
+URxvt.color2:       #00922c
+URxvt.color10:      #00922c
+
+! yellow
+URxvt.color3:       #b58900
+URxvt.color11:      #b58900
+
+! blue
+URxvt.color4:       #6425b6
+URxvt.color12:      #6425b6
+
+! magenta
+URxvt.color5:       #c701f4	
+URxvt.color13:      #c701f4	
+
+! cyan
+URxvt.color6:       #f7f7f7
+URxvt.color14:      #f7f7f7
+
+! white
+URxvt.color7:       #b7a2ff
+URxvt.color15:      #b7a2ff
